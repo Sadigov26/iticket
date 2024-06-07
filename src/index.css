@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f9f9f9;
+  font-family: SF Pro Display;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #fd0; 
+  border-radius: 0px; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f2f2f251; 
+}
+
+img{
+    overflow: clip;
+    overflow-clip-margin: content-box;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../src/Components/Fonts/SFProDisplay-Bold.1c2dc0d.woff2) format("woff2")
+}
+@font-face {
+  font-display: swap;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../src/Components/Fonts/SFProDisplay-Regular.68dd00a.woff2) format("woff2")
+}
+@font-face {
+  font-display: swap;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../src/Components/Fonts/SFProDisplay-Medium.062b618.woff2) format("woff2")
+}
+@font-face {
+  font-display: swap;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  src: url(../src/Components/Fonts/SFProDisplay-Semibold.3926eb6.woff2) format("woff2")
+}
